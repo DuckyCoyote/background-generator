@@ -1,4 +1,4 @@
-const holaMundo = () => {
-    console.log('Hello World!');
+const holaMundo = (message) => {
+    console.log(message);
 };
-holaMundo();
+holaMundo('Hola Mundo');
